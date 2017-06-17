@@ -1,5 +1,3 @@
-# angular-1.6.4-weather-forecast
-
 # Weather Forecast App using Angular 1.6.4
 
 This App with the latest Angular 1.x.x version in a simple Weather Forecast.
