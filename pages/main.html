@@ -2,12 +2,12 @@
 
     <div class="container">
         <div class="row">
-            <form class="form-inline">
+            <form class="form-inline" ng-submit="getForecast()">
                 <div class="col-md-4 col-md-offset-3 form-group">
                     <label>Forecast by City:</label>
                     <input type="text" ng-model="city" class="form-control">
                 </div>
-                <a href="#!/forecast" class="btn btn-primary">Get Forecast</a>
+                <input type="submit" class="btn btn-primary" value="Get Forecast">
             </form>
         </div>
     </div>
